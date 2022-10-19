@@ -20,7 +20,9 @@ Route::get('/', function () {
 });
 
 Route::get('/posts', function () {
-    return view('posts');
+    return view('posts', [
+        'posts' => Post::list()
+    ]);
 });
 
 Route::get('/posts/{post_name}', function ($post_name) {
