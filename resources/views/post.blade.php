@@ -6,7 +6,7 @@
     <title>Post</title>
 </head>
 <body>
-    <h1>Blog</h1>
+    <h1 class="title">Blog</h1>
     <?php echo $post_content ?>
 </body>
 </html>

@@ -6,6 +6,7 @@
     <title>Post</title>
 </head>
 <body>
+    <h1 class="title">Blog</h1>
     <div class="">
         <h1>My first blog post</h1>
 
